@@ -1,0 +1,26 @@
+WHAT IS PYTHON?
+Python is a high-level,interpreted programming language known for its simplicity and readability.
+
+A Little History:
+• Created by: Guido van Rossum
+
+• First released: 1991
+
+• Current version: Python 3 (actively developed and widely used)
+
+• Name origin: Named after Monty Python’s Flying Circus, not the snake 
+
+Why it's popular:
+> Easy to learn
+> Versatile(web,data science,automation,AI,etc.)
+> Large community & libraries
+
+BASIC SYNTAX:
+# Hello World in Python
+print("Hello, world!")
+
+# Adding two numbers
+a = 5
+b = 3
+sum = a + b
+print("Sum:", sum)
