@@ -1,0 +1,44 @@
+VARIABLES AND DATA TYPES:
+In Python, variables are used to store data, and data types define the kind of data a variable can hold.
+
+--> Variables in Python:
+A variable is created by assigning a value using the = operator.
+
+➤ Syntax:
+variable_name = value
+
+➤ Examples:
+x = 5          # Integer
+name = "Sri"  # String
+pi = 3.14      # Float
+is_valid = True  # Boolean
+
+• Python is dynamically typed — you don’t need to declare the type of a variable explicitly.
+• Variable names are case-sensitive (Name and name are different).
+
+--> Basic Data Types in Python:
+Data Type	              Description	                        Example
+int	                    Integer numbers	                    x = 10
+float	                  Decimal numbers	                    pi = 3.14
+str	                    Text / string data	                name = "Sravya"
+bool	                  Boolean (True/False)	              is_happy = True
+list	                  Ordered, mutable collection	        fruits = ["orange", "kiwi"]
+tuple	                  Ordered, immutable collection	      coordinates = (4, 5)
+dict	                  Key-value pairs	                    person = {"name": "Sri", "age": 18}
+set	                    Unordered, unique items	            unique_nums = {1, 2, 3}
+NoneType	              Represents absence of value	        x = None
+
+• Type Checking:
+  You can check the type of any variable using the type() function.
+
+➤ Example:
+x = 42
+print(type(x))  # <class 'int'>
+
+• Type Conversion (Casting):
+  You can convert between types using built-in functions.
+
+➤ Example:
+x = int("10")      # Convert string to int
+y = str(3.14)      # Convert float to string
+z = float(5)       # Convert int to float
