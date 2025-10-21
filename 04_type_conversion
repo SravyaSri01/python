@@ -1,0 +1,41 @@
+TYPE CONVERSION IN PYTHON:
+• Type conversion means changing the data type of a value.
+
+In Python, there are two types of type conversion:
+ⅰ) Implicit Conversion
+ⅱ) Explicit Conversion 
+
+ⅰ) Implicit Conversion:
+Python automatically converts one data type to another during operations without user intervention.
+
+→ Example:
+a = 5     # int
+b = 2.5   # float
+result = a + b       # a is automatically converted to float
+print(result)        # 7.5
+print(type(result))  # <class 'float'>
+
+ⅱ) Explicit Conversion:
+The programmer manually converts the data type using built-in functions.
+
+⇒ Common Type Casting Functions:
+Function	                      Converts To
+int()	                          Integer
+float()	                        Floating point
+str()	                          String
+bool()	                        Boolean
+list()	                        List
+tuple()	                        Tuple
+set()	                          Set
+complex()	                      Complex number
+
+→ Examples:
+➤ Convert float to int:
+x = 9.7
+y = int(x)
+print(y)  # 9
+
+➤ Convert string to int:
+s = "123"
+n = int(s)
+print(n + 1)  # 124
