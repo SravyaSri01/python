@@ -1,0 +1,47 @@
+STRING MANIPULATION:
+• Python offers a rich set of built-in methods for string manipulation, allowing you to transform, search, format, and analyze text with ease.
+
+▶ Basic String Operations:
+- Creating a string: Use quotes ('hello', "world")
+- Accessing characters: s[0] gets the first character
+- Length of string: len(s)
+- Concatenation: 'Hello' + ' ' + 'World'
+- Repetition: 'ha' * 3 → 'hahaha'
+
+▶ Slicing and Indexing:
+- s[2:5] → substring from index 2 to 4
+- s[:4] → first 4 characters
+- s[-3:] → last 3 characters
+
+▶ Searching and Counting:
+- s.find('a') → index of first occurrence
+- s.count('a') → number of times 'a' appears
+- s.startswith('He'), s.endswith('ld') → boolean checks
+
+▶ Case Conversion:
+- s.upper() → all uppercase
+- s.lower() → all lowercase
+- s.title() → title case
+- s.capitalize() → first letter uppercase
+- s.swapcase() → swap case
+
+▶ Replacing and Formatting:
+- s.replace('old', 'new')
+- s.strip() → removes leading/trailing whitespace
+- s.split(',') → splits into list
+- ' '.join(list) → joins list into string
+- f"Hello {name}" → f-string formatting
+
+▶ Validation Methods:
+- s.isalpha() → only letters
+- s.isdigit() → only digits
+- s.isalnum() → letters and digits
+- s.isspace() → only whitespace
+
+▶ Reversing a String:
+s[::-1]
+
+▶ Advanced Tools:
+- encode() → converts to bytes
+- expandtabs(n) → sets tab size
+- format_map(dict) → formats using dictionary
